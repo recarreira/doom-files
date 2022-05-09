@@ -1,5 +1,7 @@
 # Shortcuts
 
+## General navigation and edition 
+
 | shortcuts               | description                                                                           |
 |-------------------------|---------------------------------------------------------------------------------------|
 | `alt` + `x`             | emacs command list                                                                    |
@@ -29,6 +31,15 @@
 | `space b i`             | see and navigate through open files on the current Buffer (ibuffer)                   |
 | `space o P`             | open project tree, showing the current file location                                  |
 | `space w h`             | move to the window on the left (h). You can also go to right (l), down (j) and up (k) |
+
+## Clojure
+
+| shortcuts | description                    |
+|-----------|--------------------------------|
+| `, e b`   | Eval current file (aka Buffer) |
+| `, t n`   | Run Test on current Namespace  |
+| `, t t`   | Run current test               |
+| `, t a`   | Rerun last test                |
 
 TODO: sort shortcuts 
 
