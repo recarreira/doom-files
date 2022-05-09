@@ -33,6 +33,10 @@
 (setq which-key-idle-delay 0.3
       which-key-idle-secondary-delay 0.05)
 
+(use-package! treemacs
+  :config
+  (treemacs-follow-mode t))
+
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;
 ;; - `doom-font' -- the primary font to use
