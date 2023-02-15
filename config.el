@@ -35,7 +35,17 @@
 
 (use-package! treemacs
   :config
+  (setq treemacs-text-scale -1)
   (treemacs-follow-mode t))
+
+(after! projectile
+  (add-to-list 'projectile-project-root-files-bottom-up "pubspec.yaml")
+  (add-to-list 'projectile-project-root-files-bottom-up "project.clj")
+
+;; side projects
+
+  (add-to-list 'projectile-project-search-path "~/dev/personal"))
+
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
 ;;

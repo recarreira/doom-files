@@ -2,35 +2,44 @@
 
 ## General navigation and edition 
 
-| shortcuts               | description                                                                           |
-|-------------------------|---------------------------------------------------------------------------------------|
-| `alt` + `x`             | emacs command list                                                                    |
-| `c (2) t /`             | Change unTil (second) `/`                                                             |
-| `d w`                   | Delete Word                                                                           |
-| `c i "`                 | Change Inside `"`                                                                     |
-| `u`                     | Undo                                                                                  |
-| `ctrl` + `r`            | Redo                                                                                  |
-| `shift` + `v` `(j) (k)` | Select on Visual mode (down) (up)                                                     |
-| `shift` + `k`           | go to documentation                                                                   |
-| `(shift) o`             | new line (above)                                                                      |
-| `33 G`                  | Go to line `33`                                                                       |
-| `/bla` `(n) (N)`        | search word `bla` on file. Press enter, then n (next) or N (previous)                 |
-| `0`                     | beginning of line                                                                     |
-| `$`                     | end of line                                                                           |
-| `:e <tab>`              | Edit of create file                                                                   |
-| `:! ls`                 | run the `ls` command on terminal                                                      |
-| `:w`                    | Write (aka save) file                                                                 |
-| `:q`                    | Quit the buffer                                                                       |
-| `:%s/bla/ble/gI`        | Substitute (aka replace) word `bla` for `ble` on file (%), case sensitively (I)       |
-| `space q s`             | Save current session                                                                  |
-| `space c d`             | go to Definition                                                                      |
-| `space c D`             | go to references                                                                      |
-| `space /`               | search on project (Note: use up and down keys to navigate, not j and k)               |
-| `space b k`             | Kill (close) the current Buffer                                                       |
-| `space space`           | open files on current project                                                         |
-| `space b i`             | see and navigate through open files on the current Buffer (ibuffer)                   |
-| `space o P`             | open project tree, showing the current file location                                  |
-| `space w h`             | move to the window on the left (h). You can also go to right (l), down (j) and up (k) |
+| shortcuts               | description                                                                             |
+|-------------------------|-----------------------------------------------------------------------------------------|
+| `alt` + `x`             | *search emacs commands*                                                                 |
+| `c (2) t /`             | Change unTil (second) `/`                                                               |
+| `d w`                   | Delete Word                                                                             |
+| `c i "`                 | Change Inside `"`                                                                       |
+| `u`                     | Undo                                                                                    |
+| `ctrl` + `r`            | Redo                                                                                    |
+| `shift` + `v` `(j) (k)` | Select lines on Visual mode (down) (up)                                                 |
+| `shift` + `k`           | go to documentation                                                                     |
+| `(shift) o`             | new line (above)                                                                        |
+| `33 G`                  | Go to line `33`                                                                         |
+| `/bla` `(n) (N)`        | search word `bla` on file. Press enter, then n (next) or N (previous)                   |
+| `0`                     | beginning of line                                                                       |
+| `$`                     | end of line                                                                             |
+| `:e <tab>`              | Edit of create file                                                                     |
+| `:! ls`                 | run the `ls` command on terminal                                                        |
+| `:w`                    | Write (aka save) file                                                                   |
+| `:q`                    | Quit the buffer (also closes current window)                                            |
+| `:%s/bla/ble/gI`        | Substitute (aka replace) word `bla` for `ble` on file (%), case sensitively (I)         |
+| `space q s`             | Save current session                                                                    |
+| `space c d`             | go to Definition                                                                        |
+| `space c D`             | go to references                                                                        |
+| `space /`               | search on project (Note: use up (`↑`) and down keys to navigate, not `j` and `k`)       |
+| `space b k`             | Kill (close) the current Buffer                                                         |
+| `space space`           | open files on current project                                                           |
+| `space b i`             | see and navigate through open files on the current Buffer (ibuffer)                     |
+| `space o P`             | open project tree, showing the current file location                                    |
+| `space w h`             | move to the window on the left (h). You can also go to right (l), down (j) and up (k)   |
+| `space w v`             | split Window Vertically (aka opens new window on the right)                             |
+| `space o t`             | Open Terminal inside emacs (if configured and installed)                                |
+| `alt` + `↑` (or `↓`)    | move the current line upwards (`↑`) or downwards (`↓`)                                  |
+| `:m33`                  | move the current line to the `33` line (tbh, it moves to the line right after the `33`) |
+| `*` (or `#`)            | finds next (or past) occurrencies of the current word on the same file                  |
+|                         |                                                                                         |
+
+
+#TODO: sort shortcuts 
 
 ## Clojure
 
@@ -41,7 +50,6 @@
 | `, t t`   | Run current test               |
 | `, t a`   | Rerun last test                |
 
-TODO: sort shortcuts 
 
 # DOOM Emacs
 
