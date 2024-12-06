@@ -7,6 +7,9 @@
 | `alt` + `x`             | *search emacs commands*                                                                 |
 | `c (2) t /`             | Change unTil (second) `/`                                                               |
 | `d w`                   | Delete Word                                                                             |
+| `y y`                   | Yank (copy) a line                                                                      |
+| `p`                     | Paste bellow                                                                            |
+| `P`                     | Paste above                                                                             |
 | `c i "`                 | Change Inside `"`                                                                       |
 | `u`                     | Undo                                                                                    |
 | `ctrl` + `r`            | Redo                                                                                    |
